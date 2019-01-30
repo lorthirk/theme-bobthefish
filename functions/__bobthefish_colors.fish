@@ -404,7 +404,7 @@ function __bobthefish_colors -S -a color_scheme -d 'Define colors used by bobthe
       set -x color_initial_segment_su    $fg[1] $green[2] --bold
       set -x color_initial_segment_jobs  $fg[1] $aqua[2] --bold
 
-      set -x color_path                  $bg[1] $fg[2]
+      set -x color_path                  $bg[1] $fg[4]
       set -x color_path_basename         $bg[1] $fg[2] --bold
       set -x color_path_nowrite          $red[1] $fg[2]
       set -x color_path_nowrite_basename $red[1] $fg[2] --bold
